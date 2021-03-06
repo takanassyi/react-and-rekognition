@@ -29,13 +29,17 @@ const Page: React.FC = () => {
   const getImage = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files === null) return;
 
-    const reader = new FileReader();
-    reader.readAsDataURL(e.target.files[0]);
-    reader.onload = () => {
-      setImage(reader.result);
-      if (e.target.files === null) return;
-      setFileName(e.target.files[0].name);
-    };
+    try {
+      const reader = new FileReader();
+      reader.readAsDataURL(e.target.files[0]);
+      reader.onload = () => {
+        setImage(reader.result);
+        if (e.target.files === null) return;
+        setFileName(e.target.files[0].name);
+      };
+    } catch {
+      console.error('Error');
+    }
   };
 
   // TODO:型を明確にしながら axios を使う
