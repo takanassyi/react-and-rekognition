@@ -1,3 +1,8 @@
+[![GitHub issues](https://img.shields.io/github/issues/takanassyi/react-and-rekognition.svg)](https://github.com/takanassyi/react-and-rekognition/issues)
+[![GitHub forks](https://img.shields.io/github/forks/takanassyi/react-and-rekognition.svg)](https://github.com/takanassyi/react-and-rekognition/network)
+[![GitHub stars](https://img.shields.io/github/stars/takanassyi/react-and-rekognition.svg)](https://github.com/takanassyi/react-and-rekognition/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/takanassyi/react-and-rekognition/pulls)
+
 # Web App Demo
 
 ![result](https://github.com/takanassyi/react-and-rekognition/blob/main/ref/demo.gif)
